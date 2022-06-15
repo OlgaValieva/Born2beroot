@@ -17,5 +17,5 @@ fi
 #User log: $(who | awk '{ print $1 }' | sort -u | wc -l)
 #Network: IP $(hostname -I)($(ip link show | awk ' $1 ==  "link/ether" {print $2}'))
 #Sudo: $(grep -c 'COMMAND' /var/log/sudo/sudo.log) cmd "
-"monitoring.sh" 20L, 891B                                     20,46       Внизу
+"monitoring.sh"
 
